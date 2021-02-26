@@ -45,6 +45,5 @@ resultado = classificador.predict(base_valida)
 
 resultado = (resultado > 0.5)
 
-matriz = confusion_matrix(base_valida.class_indices, resultado)
 
 
